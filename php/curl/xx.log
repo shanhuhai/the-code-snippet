@@ -1,0 +1,52 @@
+Array
+(
+    [DOCUMENT_ROOT] => /root/the-code-snippet/php/curl
+    [REMOTE_ADDR] => 127.0.0.1
+    [REMOTE_PORT] => 57077
+    [SERVER_SOFTWARE] => PHP 5.5.9-1ubuntu4 Development Server
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [SERVER_NAME] => localhost
+    [SERVER_PORT] => 8000
+    [REQUEST_URI] => /post_server.php
+    [REQUEST_METHOD] => POST
+    [SCRIPT_NAME] => /post_server.php
+    [SCRIPT_FILENAME] => /root/the-code-snippet/php/curl/post_server.php
+    [PHP_SELF] => /post_server.php
+    [HTTP_HOST] => localhost:8000
+    [HTTP_ACCEPT] => */*
+    [HTTP_CONTENT_LENGTH] => 821
+    [HTTP_EXPECT] => 100-continue
+    [HTTP_CONTENT_TYPE] => multipart/form-data; boundary=------------------------60f6dfec8db42702
+    [REQUEST_TIME_FLOAT] => 1413011670.2809
+    [REQUEST_TIME] => 1413011670
+)
+Array
+(
+    [authKey] => xxxxx
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [sn] => 60100
+                    [content] => Array
+                        (
+                            [0] => content1
+                            [1] => content2
+                        )
+
+                )
+
+            [1] => Array
+                (
+                    [sn] => 60100
+                    [content] => Array
+                        (
+                            [0] => content3
+                            [1] => content4
+                        )
+
+                )
+
+        )
+
+)
