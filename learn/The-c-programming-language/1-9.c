@@ -8,7 +8,7 @@ int main()
         if (c == CHAR) {
             ++i;
         } else if(c != CHAR && i>0) {
-            putchar('\n');
+            putchar(CHAR);
             putchar(c);
             i = 0;
         } else
