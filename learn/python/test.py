@@ -1,4 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-print "#nihao"
+while True:
+    for i in ["/", "-", ",", "|", "\\", "|"]:
+        print "%s\r" % i,
 
