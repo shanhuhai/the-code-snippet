@@ -1,0 +1,36 @@
+public class Object
+{
+    public static void main( String[] args)
+    {
+        Human aPerson = new Human(); 
+        aPerson.breath();
+        System.out.println(aPerson.height);
+        System.out.println(aPerson.growHeight(6));
+        
+        System.out.println(aPerson.getHeight());
+        System.out.println(aPerson.getWeight());
+
+    }
+    
+}
+
+class Human
+{
+    int  height = 175;
+    int  weight = 130;
+    void breath()
+    {
+        System.out.println("Hu----"); 
+    }
+
+    int getHeight()
+    {
+        return this.height; 
+    }
+
+    int getWeight()
+    {
+        return weight; 
+    }
+
+}
